@@ -1,0 +1,27 @@
+name: Zinc Zapper
+description: A small turret that shoots lightning bullets.
+type: itemTurret
+requirements: [
+zinc/50
+copper/65
+lead/50
+]
+ammoTypes: {
+zinc: {
+type: BasicBulletType
+damage: 10
+speed: 4
+lifetime: 100
+lightning: 1
+lightningLength: 2
+lightningDamage: 2
+
+}
+}
+buildCostMultiplier: 0.01
+reloadTime: 22
+inaccuracy: 0.2
+range: 100
+size: 1
+health: 100
+category: turret

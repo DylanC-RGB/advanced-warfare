@@ -1,0 +1,7 @@
+type: Item
+name: Zinc
+description: A material that is used for making batteries.
+cost: 100
+color: ffe7d4
+hardness: 3
+research: coal

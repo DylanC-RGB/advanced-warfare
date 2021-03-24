@@ -1,0 +1,37 @@
+name: Grenade
+type: flying
+description: A small enemy that shoots missiles.
+health: 200
+speed: 3
+accel: 0.003
+drag: 0.005
+engineOffset: 5
+range: 45
+flying: true
+hitSize: 5
+targetGround: true
+targetAir: true
+rotateSpeed: 9
+
+weapons:[
+{
+ name: grenade-blaster
+ reload: 20
+ x: 0
+ y: 0
+ rotate: false
+ recoil: 2
+ top:false
+ mirror: true
+ shootSound: lasershoot
+ bullet:{
+ type: MissileBulletType
+ splashDamageRadius: 30
+ damage: 13
+ color: 1b9494
+ speed: 5
+ lifetime: 45
+ }
+
+}
+]

@@ -1,0 +1,6 @@
+name: "more-materials"
+displayName: "[blue]More[green] Materials" //what displays in the mod selection menu
+author: "DylanC"
+description: "my first mod."
+version: "1.2"
+minGameVersion: "115"
