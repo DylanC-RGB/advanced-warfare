@@ -1,0 +1,41 @@
+name: Monarch
+type: mech
+description: An improved model of the reign, now with shockguns instead of shock bursts.
+health: 59500
+speed: 1
+accel: 0.003
+drag: 0.002
+range: 45
+flying: false
+hitSize: 30
+targetGround: true
+targetAir: true
+rotateSpeed: 4
+
+weapons:[
+{
+ name: monarch-shockgun
+ reload: 30
+ x: 0
+ y: 0
+ rotate: false
+ recoil: 4
+ top:false
+ mirror: true
+ shootSound: artillery
+ shots: 6
+ shotdelay: 1
+ inaccuracy: 10
+ bullet:{
+ type: BasicBulletType
+ damage: 130
+ color: 1b9494
+ speed: 5
+ lifetime: 45
+ lightning: 4
+ lightningLength: 10
+ lightningDamamge: 20
+ }
+
+}
+]
