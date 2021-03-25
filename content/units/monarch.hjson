@@ -4,7 +4,7 @@ description: An improved model of the reign, now with shockguns instead of shock
 health: 59500
 speed: 1
 accel: 0.003
-drag: 0.006
+drag: 0.008
 range: 45
 flying: false
 hitSize: 30
@@ -29,7 +29,7 @@ weapons:[
  shake: 5
  bullet:{
  type: BasicBulletType
- damage: 90
+ damage: 20
  color: 1b9494
  speed: 5
  lifetime: 45
