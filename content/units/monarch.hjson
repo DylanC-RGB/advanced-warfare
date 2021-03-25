@@ -7,7 +7,7 @@ accel: 0.003
 drag: 0.008
 range: 45
 flying: false
-hitSize: 30
+hitSize: 40
 targetGround: true
 targetAir: true
 rotateSpeed: 4
@@ -19,7 +19,7 @@ weapons:[
  x: 0
  y: 0
  rotate: false
- recoil: 4
+ recoil: 10
  top:false
  mirror: true
  shootSound: artillery
