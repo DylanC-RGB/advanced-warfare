@@ -29,7 +29,7 @@ weapons:[
  shake: 5
  bullet:{
  type: BasicBulletType
- damage: 20
+ damage: 80
  color: 1b9494
  speed: 5
  lifetime: 45
