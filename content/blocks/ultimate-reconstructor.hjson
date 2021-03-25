@@ -1,0 +1,32 @@
+name: Ultimate Reconstuctor
+type: Reconstructor
+size: 9
+consumes: {
+power: 50
+items: {
+items: [
+silicon/2000
+plastanium/600
+surge-alloy/1000
+phase-fabric/700
+
+]
+}
+}
+constructTime: 18000
+
+requirements: [
+silicon/4000
+plastanium/1200
+surge-alloy/2000
+phase-fabric/1400
+lead/8000
+]
+
+upgrades: [
+[
+reign, monarch
+]
+]
+category: units
+research: tetrative-reconstructor
