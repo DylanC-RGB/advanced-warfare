@@ -27,7 +27,7 @@ visualElavation: 0.7
 
 weapons:[
 {
- name: cryo-blaster
+ name: corvus-mk2-weapon
  reload: 60
  x: 0
  y: 0
