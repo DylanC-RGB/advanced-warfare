@@ -1,0 +1,57 @@
+  
+name: Corvus MK2
+type: legs
+description: An heavily modified version of the Corvus, now with shrapnel and laser shotguns.
+health: 400
+speed: 1
+accel: 0.05
+drag: 0.06
+range: 40
+hitSize: 35
+targetGround: true
+targetAir: false
+legCount: 2
+legMoveSpace: 1
+legPairOffset: 3
+legExtension: -5
+legBaseOffset: 5
+landShake: 0.1
+legSpeed: 0.2
+legLengthSc1: 2
+rippleScale: 1
+legSplashDamage: 100
+legSplashRange: 30
+allowLegStep: false
+visualElavation: 0.7
+
+
+weapons:[
+{
+ name: cryo-blaster
+ reload: 60
+ x: 0
+ y: 0
+ rotate: false
+ recoil: 2
+ top:false
+ mirror: true
+ shootSound: laser
+ bullet:{
+ type: ShrapnelBulletType
+ length: 135
+ width: 10
+ damage: 5
+ serrationLenSc1: 1
+ serrationSpaceOffset: 1
+ serrationFadeOffset: 0
+ serrations: 3
+ serrationWidth: 4
+ fromColor: 6974c4
+ toColor: 8aa3f4
+ shootEffect: sparkShoot
+ smokeEffect: sparkShoot
+ lifetime: 10
+ }
+
+}
+]
